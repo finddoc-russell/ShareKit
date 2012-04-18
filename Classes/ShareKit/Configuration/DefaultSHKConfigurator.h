@@ -75,6 +75,12 @@
 - (NSString*)linkedInCallbackUrl;
 - (NSString*)foursquareV2ClientId;
 - (NSString*)foursquareV2RedirectURI;
+- (NSString*)sinaWeiboConsumerKey;
+- (NSString*)sinaWeiboConsumerSecret;
+- (NSString*)sinaWeiboCallbackUrl;
+- (NSNumber*)sinaWeiboUseXAuth;
+- (NSString*)sinaWeiboScreenName;
+- (NSString*)sinaWeiboUserID;
 - (NSNumber*)shareMenuAlphabeticalOrder;
 - (NSNumber*)sharedWithSignature;
 - (NSString*)barStyle;

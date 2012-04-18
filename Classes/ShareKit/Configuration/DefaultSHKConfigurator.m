@@ -59,6 +59,39 @@
  leaving that decision up to the user.
  */
 
+// Sina Weibo
+- (NSString*)sinaWeiboConsumerKey
+{
+    return @"";
+}
+
+- (NSString*)sinaWeiboConsumerSecret
+{
+    return @"";
+}
+
+// Must be set for OAuth
+- (NSString*)sinaWeiboCallbackUrl
+{
+    return @"";
+}
+
+- (NSNumber*)sinaWeiboUseXAuth
+{
+    return [NSNumber numberWithInt:0];
+}
+
+// Only for XAuth
+- (NSString*)sinaWeiboScreenName
+{
+    return @"";
+}
+
+- (NSString*)sinaWeiboUserID
+{
+    return @"";
+}
+
 // Vkontakte
 // SHKVkontakteAppID is the Application ID provided by Vkontakte
 - (NSString*)vkontakteAppId {
