@@ -30,5 +30,9 @@
 
 - (NSString *)URLEncodedString;
 - (NSString *)URLDecodedString;
+- (NSString *)encodedURLString;
+- (NSString *)encodedURLParameterString;
+- (NSString *)decodedURLString;
+- (NSString *)removeQuotes;
 
 @end
